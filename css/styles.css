@@ -387,17 +387,20 @@ main div#welcome {
   box-shadow: inset 0 0 0 1000px rgba(128, 2, 145, 0.2);
   padding: 1rem;
 }
-main div#welcome button {
+main div#welcome a {
+  text-decoration: none;
+  color: black;
+}
+main div#welcome h4 {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
   padding: 15px 20px;
   text-transform: uppercase;
   background-color: #7fd858;
   border: 0;
   border-radius: 4px;
   cursor: pointer;
-}
-main div#welcome button a {
-  text-decoration: none;
-  color: black;
 }
 main div#welcome span {
   color: #7fd858;
@@ -441,7 +444,7 @@ main div.drinkGallery figure img {
   position: absolute;
   display: block;
 }
-main div.drinkGallery figcaption {
+main div.drinkGallery h2 {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 2vh;
@@ -484,17 +487,20 @@ main div#catering p {
   font-weight: 300;
   text-transform: none;
 }
-main div#catering button {
-  padding: 15px 20px;
+main div#catering a {
+  text-decoration: none;
+  color: black;
+}
+main div#catering h3 {
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px 10px;
   text-transform: uppercase;
   background-color: #7fd858;
   border: 0;
   border-radius: 4px;
   cursor: pointer;
-}
-main div#catering button a {
-  text-decoration: none;
-  color: black;
+  margin-bottom: 20px;
 }
 main form fieldset {
   margin: 2rem 0;

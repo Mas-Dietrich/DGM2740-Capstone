@@ -65,6 +65,7 @@ main {
       background-color: $primaryColor;
       border: 0;
       border-radius: 4px;
+      cursor: pointer;
 
       a {
         text-decoration: none;
@@ -160,6 +161,7 @@ div#catering {
     background-color: $primaryColor;
     border: 0;
     border-radius: 4px;
+    cursor: pointer;
 
     a {text-decoration: none; color: black;}
   }
@@ -284,7 +286,7 @@ footer {
         margin: 0;
         font-weight: $lightWeight;
         text-align: center;
-        color: white;
+        color: black;
     }
 
     div#footerLinks {

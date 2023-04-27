@@ -393,6 +393,7 @@ main div#welcome button {
   background-color: #7fd858;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 }
 main div#welcome button a {
   text-decoration: none;
@@ -489,6 +490,7 @@ main div#catering button {
   background-color: #7fd858;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 }
 main div#catering button a {
   text-decoration: none;
@@ -600,7 +602,7 @@ footer p {
   margin: 0;
   font-weight: 300;
   text-align: center;
-  color: white;
+  color: black;
 }
 footer div#footerLinks {
   display: grid;

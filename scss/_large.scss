@@ -1,0 +1,54 @@
+header, nav, main, footer {
+    max-width: 60rem;
+    margin: auto;
+}
+
+nav ul li a {
+    font-size: 1.5rem;
+    padding: .5rem 1.2rem;
+    margin: 0;
+}
+
+
+
+main {
+    h2 {font-size: 2rem;}
+    div.drinkGallery figure img {
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        display: block;
+      }
+
+      .swiper-wrapper img {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+      }
+
+      div#catering button {margin-bottom: 5vh;}
+
+
+      div#menuCards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      
+      }
+
+
+      div#whoWeAre {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 2vh;
+
+        img {grid-area: 1; width: 600px; height: auto;}
+        div {
+            grid-area: 1; 
+            padding: 1rem;
+            p {text-align: left; font-size: 1.4rem;}
+            h2 {text-align: left;}
+        }
+
+      }
+}

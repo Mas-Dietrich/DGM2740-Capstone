@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Vibe | Mason Dietrich</title>
+    <meta name="description" content="Capstone project for DGM2740">
+    <meta name="author" content="Mason Dietrich">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Playball&family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    <!-- Swiper CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/35a53caa89.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img class="logo" src="images/logoIcon1.png" alt="logo" srcset="images/logoIcon1.png 1x, images/logoIcon2.png 2x, images/logoIcon3.png 3x">
+            <h1>The <span>Vibe</span> Virgin Bar</h1>
+            <h2>Bar Culture Without the Uber Home</h2>
+        </header>
+    </div>
+    <!--Nav-->
+    <div id="navWrapper">
+        <nav>
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a>
+                <li class="parent"><a href="#">Menu</a>
+                    <ul>
+                        <li><a href='#'>Mocktails</a></li>
+                        <li><a href='#'>Flavors</a></li>
+                        <li><a href='#'> Mixes</a></li>
+                    </ul>
+                </li>
+                <li class="parent"><a href="catering.html">Catering</a>
+                    <ul>
+                        <li><a href="#">Weddings</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a>Events</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Nav End-->
+
+    <div id="mainWrapper">
+        <main>
+            <div>
+                <h1>Thank you!</h1>
+                <p>Thank you so much for your interest in our Catering Services! We will reach out to you ASAP!</p>
+                    
+            </div>
+        </main>
+    </div>
+
+    <div id="footerWrapper">
+        <footer>
+            <div id="footerLinks">
+                <div class="footerContact">
+                    <h4>Address</h4>
+                    <p>65 N. University Ave.</p>
+                    <p>Provo Utah 84601</p><br>
+                    <p>(385) 482-2010</p>
+                    <p>catering@thevibemocktails.com</p>
+                </div>
+
+                <div class="footerLogo">
+                    <img src="images/newVibe1.png" alt="Footer Logo">
+                </div>
+
+                <div class="footerHours">
+                    <h5>Mon - Thu</h5>
+                    <p>6:00 pm - 12:00 am</p>
+
+                    <h5>Friday</h5>
+                    <p>4:00 pm - 1:00 am</p>
+
+                    <h5>Saturday</h5>
+                    <p>12:00pm - 1:00 am</p>
+
+                    <h5>Sunday</h5>
+                    <p>Closed</p>
+                </div>
+            </div>
+            <p>&copy; <span id="date"></span> &bull; Mason Dietrich &bull; DGM2740</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script>    var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy", threshold: 0
+        // Your custom settings go here
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

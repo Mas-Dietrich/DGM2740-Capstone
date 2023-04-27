@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Vibe | Mason Dietrich</title>
+    <meta name="description" content="Capstone project for DGM2740">
+    <meta name="author" content="Mason Dietrich">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Playball&family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    <!-- Swiper CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/35a53caa89.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="headerWrapper">
+        <header>
+            <img class="logo" src="images/logoIcon1.png" alt="logo" srcset="images/logoIcon1.png 1x, images/logoIcon2.png 2x, images/logoIcon3.png 3x">
+            <h1>The <span>Vibe</span> Virgin Bar</h1>
+            <h2>Bar Culture Without the Uber Home</h2>
+        </header>
+    </div>
+    <!--Nav-->
+    <div id="navWrapper">
+        <nav>
+            <button id="hamburgerBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a>
+                <li><a class="active" href="about.html">About</a></li>
+                <li class="parent"><a href="menu.html">Menu</a>
+                    <ul>
+                        <li><a href='#'>Mocktails</a></li>
+                        <li><a href='#'>Flavors</a></li>
+                        <li><a href='#'> Mixes</a></li>
+                    </ul>
+                </li>
+                <li class="parent"><a href="catering.html">Catering</a>
+                    <ul>
+                        <li><a href="#">Weddings</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a>Events</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--Nav End-->
+
+    <div id="mainWrapper">
+        <main>
+            <div id="welcome">
+                <h1><span>About</span></h1>
+                <h3>Who We Are</h3>
+                <p><em>Although it is just the beginning for The Vibe we are so thankful for all the support we have gotten since we opened and can't wait to keep growing and doing what we love.</em></p>
+            </div>
+
+            <div id="whoWeAre">
+                <div class="aboutGrid"></div>
+                    <img src="images/IMG_6715-0730c467-282cb539-2880w.webp" alt="Crystal">
+                    <div>
+                        <h2>History</h2>
+                        <p>Chrystal, the founder of The Vibe, is a young entrepreneur who has always been passionate about experimenting with flavors and creating unique drinks. She has spent years perfecting her craft and has decided to pursue her dream of opening a non-alcoholic cocktail bar. The Vibe Mocktails offers a wide range of delicious and innovative mocktails that are made with fresh, high-quality ingredients. Chrystal's love for unique flavors and her commitment to creating an inclusive and enjoyable environment for all, has driven her to put her passion into every drink she serves. Her goal is to provide a memorable and satisfying experience for her guests, regardless of their preferences, and to make sure that everyone feels welcome and included.
+                        </p>
+                    </div>
+
+                    <div class="mission">
+                        <h2>Our Mission</h2>
+                        <p>"Our mission is to provide a fun, inclusive, and delicious experience for all through our unique non-alcoholic cocktails made with fresh, high-quality ingredients. We strive to create a memorable and satisfying experience for all guests, regardless of their preferences."
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div id="footerWrapper">
+        <footer>
+            <div id="footerLinks">
+                <div class="footerContact">
+                    <h4>Address</h4>
+                    <p>65 N. University Ave.</p>
+                    <p>Provo Utah 84601</p><br>
+                    <p>(385) 482-2010</p>
+                    <p>catering@thevibemocktails.com</p>
+                </div>
+
+                <div class="footerLogo">
+                    <img src="images/newVibe1.png" alt="Footer Logo">
+                </div>
+
+                <div class="footerHours">
+                    <h5>Mon - Thu</h5>
+                    <p>6:00 pm - 12:00 am</p>
+
+                    <h5>Friday</h5>
+                    <p>4:00 pm - 1:00 am</p>
+
+                    <h5>Saturday</h5>
+                    <p>12:00pm - 1:00 am</p>
+
+                    <h5>Sunday</h5>
+                    <p>Closed</p>
+                </div>
+            </div>
+            <p>&copy; <span id="date"></span> &bull; Mason Dietrich &bull; DGM2740</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"></script>
+    <script>    var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy", threshold: 0
+        // Your custom settings go here
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
